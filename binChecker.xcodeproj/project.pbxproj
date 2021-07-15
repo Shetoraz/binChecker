@@ -47,6 +47,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A16210F26A0819C007C802D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BBF9C269B186300387EB2 /* CustomButton.swift */,
+				3A5BBFAE269B398400387EB2 /* BankInfoView.swift */,
+				3A5BBFB1269B3A6E00387EB2 /* BankInfoRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A16211026A081B5007C802D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BBF9F269B198D00387EB2 /* View + Constraints.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3A16211226A081BF007C802D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BBFA8269B285200387EB2 /* Bank.swift */,
+				3A5BBFAB269B33EE00387EB2 /* BankModelManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3A16211326A081C5007C802D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BBFA5269B21AC00387EB2 /* BinCheckerService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3A16211526A081D9007C802D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BBF8C269B178500387EB2 /* Assets.xcassets */,
+				3A5BBF91269B178500387EB2 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A16211626A081E5007C802D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BBF87269B177B00387EB2 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		3A5BBF77269B177B00387EB2 = {
 			isa = PBXGroup;
 			children = (
@@ -68,16 +120,12 @@
 			children = (
 				3A5BBF83269B177B00387EB2 /* AppDelegate.swift */,
 				3A5BBF85269B177B00387EB2 /* SceneDelegate.swift */,
-				3A5BBF87269B177B00387EB2 /* ViewController.swift */,
-				3A5BBFAE269B398400387EB2 /* BankInfoView.swift */,
-				3A5BBFB1269B3A6E00387EB2 /* BankInfoRow.swift */,
-				3A5BBFA5269B21AC00387EB2 /* BinCheckerService.swift */,
-				3A5BBFA8269B285200387EB2 /* Bank.swift */,
-				3A5BBFAB269B33EE00387EB2 /* BankModelManager.swift */,
-				3A5BBF9F269B198D00387EB2 /* View + Constraints.swift */,
-				3A5BBF9C269B186300387EB2 /* CustomButton.swift */,
-				3A5BBF8C269B178500387EB2 /* Assets.xcassets */,
-				3A5BBF91269B178500387EB2 /* Info.plist */,
+				3A16211626A081E5007C802D /* Controllers */,
+				3A16210F26A0819C007C802D /* View */,
+				3A16211326A081C5007C802D /* Service */,
+				3A16211226A081BF007C802D /* Model */,
+				3A16211026A081B5007C802D /* Extensions */,
+				3A16211526A081D9007C802D /* Supporting Files */,
 			);
 			path = binChecker;
 			sourceTree = "<group>";
