@@ -16,6 +16,8 @@
 		3A5BBFA6269B21AC00387EB2 /* BinCheckerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BBFA5269B21AC00387EB2 /* BinCheckerService.swift */; };
 		3A5BBFA9269B285200387EB2 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BBFA8269B285200387EB2 /* Bank.swift */; };
 		3A5BBFAC269B33EE00387EB2 /* BankModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BBFAB269B33EE00387EB2 /* BankModelManager.swift */; };
+		3A5BBFAF269B398400387EB2 /* BankInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BBFAE269B398400387EB2 /* BankInfoView.swift */; };
+		3A5BBFB2269B3A6E00387EB2 /* BankInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BBFB1269B3A6E00387EB2 /* BankInfoRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		3A5BBFA5269B21AC00387EB2 /* BinCheckerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinCheckerService.swift; sourceTree = "<group>"; };
 		3A5BBFA8269B285200387EB2 /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
 		3A5BBFAB269B33EE00387EB2 /* BankModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankModelManager.swift; sourceTree = "<group>"; };
+		3A5BBFAE269B398400387EB2 /* BankInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankInfoView.swift; sourceTree = "<group>"; };
+		3A5BBFB1269B3A6E00387EB2 /* BankInfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankInfoRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 				3A5BBF83269B177B00387EB2 /* AppDelegate.swift */,
 				3A5BBF85269B177B00387EB2 /* SceneDelegate.swift */,
 				3A5BBF87269B177B00387EB2 /* ViewController.swift */,
+				3A5BBFAE269B398400387EB2 /* BankInfoView.swift */,
+				3A5BBFB1269B3A6E00387EB2 /* BankInfoRow.swift */,
 				3A5BBFA5269B21AC00387EB2 /* BinCheckerService.swift */,
 				3A5BBFA8269B285200387EB2 /* Bank.swift */,
 				3A5BBFAB269B33EE00387EB2 /* BankModelManager.swift */,
@@ -147,10 +153,12 @@
 				3A5BBF9D269B186300387EB2 /* CustomButton.swift in Sources */,
 				3A5BBFAC269B33EE00387EB2 /* BankModelManager.swift in Sources */,
 				3A5BBF88269B177B00387EB2 /* ViewController.swift in Sources */,
+				3A5BBFAF269B398400387EB2 /* BankInfoView.swift in Sources */,
 				3A5BBFA0269B198D00387EB2 /* View + Constraints.swift in Sources */,
 				3A5BBFA6269B21AC00387EB2 /* BinCheckerService.swift in Sources */,
 				3A5BBF84269B177B00387EB2 /* AppDelegate.swift in Sources */,
 				3A5BBF86269B177B00387EB2 /* SceneDelegate.swift in Sources */,
+				3A5BBFB2269B3A6E00387EB2 /* BankInfoRow.swift in Sources */,
 				3A5BBFA9269B285200387EB2 /* Bank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
